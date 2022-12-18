@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/icon/favicon.ico">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section-profile">
+          <div class="title-profile">
+            <h1 class="title">Krasutskaya Nastassia</h1>
+            <div class="subtitle">Junior Front-End developer</div>
+          </div>
+          <img src="/assets/img/_DSC3401_small.jpg" class="profile-image" alt="Krasutskaya Nastassia" width="200">
+        </section>
+        <div class="main-second">
+          <div class="left-section">
+            <section class="section" id="contacts">
+              <h2 class="section-title">Contacts</h2>
+              <ul class="section-list">
+                <li class="section-item contacts-item"><a href="tel:+375297674492" class="link">+375 29 767-44-92</a></li>
+                <li class="section-item contacts-item"><a href="mailto:krasnastassia@gmail.com"  class="link">krasnastassia@gmail.com</a></li>
+                <li class="section-item contacts-item">Acia#3134(@AciaKr)</li>
+              </ul>
+            </section>
+            <section class="section" id="skills">
+              <h2 class="section-title">My skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+              </ul>
+            </section>
+            <section class="section" id="languages">
+              <h2 class="section-title">Languages</h2>
+              <ul>
+                <li>Russian - native speaker</li>
+                <li>English - B1 (in process…)</li>
+              </ul>
+            </section>
+          </div>
+          <div class="right-section">
+            <section class="section" id="aboutme">
+              <h2 class="section-title">About Me</h2>
+              <p>I want to study in Rsschool and become a good Front-End developer.</p>
+            </section>
+            <section class="section" id="courses">
+              <h2 class="section-title">Education and courses</h2>
+              <h3>Education</h3>
+              <p><span>Belarusian National Technical University:</span> WEB-design, Computer Science (2006)</p>
+              <h3>Courses</h3>
+              <ul>
+                <li><span>Udemy:</span> HTML/CSS, JavaScript (in process…)</li>
+                <li><span>RS School:</span> JS/FE Pre-School 2022Q4 (in proccess...)</li>
+              </ul>
+            </section>
+            <section class="section" id="code">
+              <h2 class="section-title">Code Example</h2>
+              <pre>
+  var images = new Array();
+  function preloadImages(){
+    for (i=0; i < preloadImages.arguments.length; i++){
+      images[i] = new Image();
+      images[i].src = preloadImages.arguments[i];
+      }
+  }
+  preloadImages("logo.jpg", "header_bg.jpg", "main_bg.jpg");
+              </pre>
+            </section>
+            <section class="section" id="projects">
+              <h2 class="section-title">MY projects</h2>
+              <p><a href="https://github.com/AciaKr"  class="link">My CV</a></p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <a class="footer-github link" href="https://github.com/AciaKr" target="_blank">
+            My GitHub
+        </a>
+        <p class="footer-year">2022</p>
+        <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
+            <img src="/assets/icon/rs_school_js.svg" width="86" height="32" alt="RS School">
+        </a>
+      </div>
+    </footer>
+</body>
+</html>
